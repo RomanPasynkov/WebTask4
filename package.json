@@ -2,13 +2,13 @@
   "name": "task4",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
-  "homepage": "https://romanpasynkov.github.io",
+  "homepage": "https://romanpasynkov.github.io/WebTask4",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
